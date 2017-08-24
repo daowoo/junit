@@ -20,4 +20,8 @@ public class Portfolio {
     public void sell(Stock a, int p) {
 
     }
+
+    public BigDecimal getCurrentValue() {
+        return new BigDecimal(0);
+    }
 }

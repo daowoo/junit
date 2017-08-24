@@ -19,6 +19,10 @@ public class Stock {
         return price;
     }
 
+    public void updatePrice(BigDecimal newPrice) {
+        price = newPrice;
+    }
+
     public Stock(String symbol, String company_name, BigDecimal price) {
         this.symbol = symbol;
         this.company_name = company_name;
